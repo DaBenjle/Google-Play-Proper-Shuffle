@@ -1,0 +1,2 @@
+username password androidID
+This will be replaced with a front end sign in which will not use a plain text login. This will also allow infinite users. (Not just me).
