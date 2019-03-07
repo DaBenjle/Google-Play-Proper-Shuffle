@@ -23,7 +23,7 @@ public class ServerThread extends Thread
 			DataInputStream in = new DataInputStream(socket.getInputStream());
 			String playlistName = in.readLine();
 			System.out.println(playlistName);
-			//new Shuffler("Ben's Favorites");
+			new Shuffler("My Favorites"); //will eventually be replaced with playlist name, but as of now the front end to back end issues will not allow this.
 		}
 		catch(IOException ex)
 		{
